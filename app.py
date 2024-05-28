@@ -38,7 +38,7 @@ st.set_page_config(page_title="Gemini Invoice Extractor", page_icon="🔮", layo
 
 st.header("Extractor data from image - GEMINI PRO")
 input  = st.text_input("Enter the input Prompt", key = "input")
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", 'jpeg', 'pdf'])
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", 'jpeg'])
 
 image  = ''
 
