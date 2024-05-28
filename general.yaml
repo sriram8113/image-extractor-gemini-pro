@@ -1,0 +1,7 @@
+name: key #needed but name can be arbitrary
+
+on: push
+
+env:
+    GOOGLE_API_KEY : ${{secrets.GOOGLE_API_KEY}}
+    
